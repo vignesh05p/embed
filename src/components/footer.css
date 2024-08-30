@@ -1,0 +1,138 @@
+.footer-container {
+    background-color: #f3e5f5; /* Light purple background */
+    color: #333;
+    padding: 40px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    max-width: 300px;
+}
+
+.footer-logo img {
+    max-width: 150px; /* Adjust based on your logo size */
+    margin-bottom: 15px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ccc;
+    width: 70%;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border-radius: 0 4px 4px 0;
+    background-color: #8e24aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #6a1b9a;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.footer-links div {
+    margin: 0 15px;
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-links h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #8e24aa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.social-media a {
+    margin-right: 15px;
+    color: #8e24aa;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    margin: 10px 0;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-legal a {
+    color: #8e24aa;
+    text-decoration: none;
+}
+
+.footer-legal a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-top,
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        text-align: center;
+        margin-top: 20px;
+    }
+}

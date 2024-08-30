@@ -1,0 +1,45 @@
+.customer-service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1f23;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.customer-service-image {
+    flex: 1;
+    max-width: 20%; /* Adjust as needed */
+}
+
+.customer-service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.customer-service-content {
+    flex: 2;
+    max-width: 50%; /* Center content width */
+    padding: 0 20px;
+    text-align: center;
+}
+
+.customer-service-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.customer-service-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.left {
+    margin-right: 20px;
+}
+
+.right {
+    margin-left: 20px;
+}
